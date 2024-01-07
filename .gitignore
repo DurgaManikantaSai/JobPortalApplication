@@ -2,7 +2,9 @@
 node_modules/
 
 # Ignore client-side node_modules
+client
 client/node_modules/
+
 
 # Ignore build artifacts and compiled code
 /build
