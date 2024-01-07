@@ -44,12 +44,13 @@ const options = {
     },
     servers: [
       {
-        url: "https://localhost:8080",
+        // url: "https://localhost:8080",
+        url: "https://jobportalapplication.onrender.com",
       },
     ],
   },
 
-  apis:['./routes/*.js'],
+  apis: ["./routes/*.js"],
 };
 
 
