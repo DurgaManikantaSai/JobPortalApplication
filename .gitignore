@@ -2,7 +2,7 @@
 node_modules/
 
 # Ignore client-side node_modules
-client
+client/
 client/node_modules/
 
 
