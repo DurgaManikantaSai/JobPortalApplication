@@ -66,7 +66,13 @@ app.use(helmet());
 app.use(xss());
 app.use(mongoSanitize());
 app.use(express.json());
-app.use(cors());
+// app.use(cors());
+app.use(
+  cors({
+    origin: "https://jobportalapplication.onrender.com",
+  })
+);
+
 app.use(morgan("dev"));
 
 
